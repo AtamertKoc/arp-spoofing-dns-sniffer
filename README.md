@@ -20,3 +20,13 @@ A professional **Man-in-the-Middle (MITM)** tool developed in Python using the S
    ```bash
    git clone [https://github.com/AtamertKoc/arp-spoofing-dns-sniffer.git](https://github.com/AtamertKoc/arp-spoofing-dns-sniffer.git)
    cd arp-spoofing-dns-sniffer
+2. **Install dependencies:**
+   ```bash
+   sudo pip3 install -r requirements.txt
+3. **Enable IP Forwarding (Critical):**
+   ```bash
+   sudo sysctl -w net.ipv4.ip_forward=1
+## 💻 Usage
+**Run the script with root privileges:**
+   ```bash 
+   sudo python3 main.py
