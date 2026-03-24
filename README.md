@@ -18,7 +18,7 @@ A professional **Man-in-the-Middle (MITM)** tool developed in Python using the S
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/AtamertKoc/arp-spoofing-dns-sniffer.git](https://github.com/AtamertKoc/arp-spoofing-dns-sniffer.git)
+   git clone https://github.com/AtamertKoc/arp-spoofing-dns-sniffer.git
    cd arp-spoofing-dns-sniffer
 2. **Install dependencies:**
    ```bash
